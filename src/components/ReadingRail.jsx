@@ -60,36 +60,39 @@ export const ReadingRail = () => {
         />
       </div>
 
-      {/* Desktop Sticky Chapter Rail */}
+      {/* Desktop Sticky Chapter Rail - Sleek, non-intrusive, hover-revealed labels */}
       <nav
         aria-label="Reading chapters"
-        className="hidden xl:flex fixed right-8 top-1/2 -translate-y-1/2 z-40 flex-col items-end gap-3 pointer-events-auto select-none"
+        className="hidden lg:flex fixed right-3 xl:right-5 top-1/2 -translate-y-1/2 z-40 flex-col items-end gap-2.5 select-none"
       >
-        <div className="text-[10px] uppercase tracking-widest text-[#111]/40 font-sans mb-2 font-medium">
-          Story Chapters
-        </div>
+        <div className="sr-only">Table of Contents</div>
         {chapters.map((ch) => {
           const isActive = activeChapter === ch.id;
           return (
             <button
               key={ch.id}
               onClick={() => scrollTo(ch.id)}
-              className="group flex items-center gap-3 py-1 text-right focus:outline-none"
+              className="group relative flex items-center justify-end py-1.5 focus:outline-none"
+              title={ch.label}
+              aria-label={`Jump to ${ch.label}`}
             >
+              {/* Floating Tooltip Label (revealed on hover, or prominent only on huge screens) */}
               <span
-                className={`text-[11px] font-sans transition-all duration-200 tracking-wide ${
+                className={`absolute right-7 py-0.5 px-2 text-[10px] tracking-wider uppercase font-sans whitespace-nowrap rounded transition-all duration-200 pointer-events-none shadow-sm ${
                   isActive
-                    ? 'text-[#B3261E] font-semibold translate-x-0 opacity-100'
-                    : 'text-[#111]/40 opacity-0 group-hover:opacity-100 group-hover:text-[#111] -translate-x-1'
+                    ? 'opacity-0 2xl:opacity-100 group-hover:opacity-100 bg-[#111] text-[#F4F0E8] font-medium'
+                    : 'opacity-0 group-hover:opacity-100 bg-[#EAE5DB] text-[#111] border border-[#111]/15'
                 }`}
               >
                 {ch.label}
               </span>
+
+              {/* Minimalist Rail Indicator Tick */}
               <span
-                className={`block transition-all duration-300 ${
+                className={`block rounded-full transition-all duration-300 ${
                   isActive
-                    ? 'w-6 h-[1.5px] bg-[#B3261E]'
-                    : 'w-2 h-[1px] bg-[#111]/30 group-hover:w-4 group-hover:bg-[#111]'
+                    ? 'w-5 h-[2px] bg-[#B3261E]'
+                    : 'w-2 h-[1px] bg-[#111]/25 group-hover:w-4 group-hover:bg-[#111]'
                 }`}
               />
             </button>

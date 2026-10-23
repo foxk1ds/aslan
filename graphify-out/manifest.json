@@ -1,0 +1,368 @@
+{
+  "package.json": {
+    "mtime": 1792690938.6695738,
+    "seen": 1792693370.3576071,
+    "ast_hash": "c21bb4599c3be903ca40b0e2dea2c3c7",
+    "semantic_hash": ""
+  },
+  "postcss.config.js": {
+    "mtime": 1792690064.658015,
+    "seen": 1792693370.3576136,
+    "ast_hash": "ef3ba2a81ba19f8ea5ddf625521e96f0",
+    "semantic_hash": ""
+  },
+  "src/App.jsx": {
+    "mtime": 1792691289.7110457,
+    "seen": 1792693370.3576164,
+    "ast_hash": "c2cddc4663e70803918979e54b5fd7d1",
+    "semantic_hash": ""
+  },
+  "src/components/Accordion.jsx": {
+    "mtime": 1792690335.3737297,
+    "seen": 1792693370.3576179,
+    "ast_hash": "8b938e3bec2029053346daf63366fb45",
+    "semantic_hash": ""
+  },
+  "src/components/AnimatedCounter.jsx": {
+    "mtime": 1792690285.4735043,
+    "seen": 1792693370.3576193,
+    "ast_hash": "5f0ba8cba39731586e2d9bf5a910bdb9",
+    "semantic_hash": ""
+  },
+  "src/components/CrimeTapeDivider.jsx": {
+    "mtime": 1792690268.9283278,
+    "seen": 1792693370.35762,
+    "ast_hash": "d45b60c980f719484d6f9bf4f34af10e",
+    "semantic_hash": ""
+  },
+  "src/components/DossierModal.jsx": {
+    "mtime": 1792690323.1225095,
+    "seen": 1792693370.3576212,
+    "ast_hash": "888901cd8868fe2b146b692fb752c53d",
+    "semantic_hash": ""
+  },
+  "src/components/EditorialFooter.jsx": {
+    "mtime": 1792691282.7153206,
+    "seen": 1792693370.3576224,
+    "ast_hash": "0146079daf94f09e1857b5ae07d63ac3",
+    "semantic_hash": ""
+  },
+  "src/components/FlipCard.jsx": {
+    "mtime": 1792690304.528483,
+    "seen": 1792693370.3576233,
+    "ast_hash": "cc21a85e3c6378fc4ae992b951c7e7c8",
+    "semantic_hash": ""
+  },
+  "src/components/Footer.jsx": {
+    "mtime": 1792690360.28299,
+    "seen": 1792693370.357624,
+    "ast_hash": "20a8a01b485e56a8b7e8c1f7b64a9477",
+    "semantic_hash": ""
+  },
+  "src/components/LoadingScreen.jsx": {
+    "mtime": 1792690280.1241102,
+    "seen": 1792693370.357625,
+    "ast_hash": "79c1ac85b12b736456f514524c9af650",
+    "semantic_hash": ""
+  },
+  "src/components/Navbar.jsx": {
+    "mtime": 1792690348.6167612,
+    "seen": 1792693370.3576262,
+    "ast_hash": "5bc63617ef0f42a21bf743717764b0d9",
+    "semantic_hash": ""
+  },
+  "src/components/ReadingRail.jsx": {
+    "mtime": 1792774871.7045827,
+    "seen": 1792774914.0548334,
+    "ast_hash": "857bfae6f6849c11853ffa28eb794afc",
+    "semantic_hash": ""
+  },
+  "src/components/ScrollProgress.jsx": {
+    "mtime": 1792690263.600924,
+    "seen": 1792693370.3576279,
+    "ast_hash": "7851ba7393453ab7e3b5031d9c3ea8ac",
+    "semantic_hash": ""
+  },
+  "src/components/SectionCases.jsx": {
+    "mtime": 1792774894.591716,
+    "seen": 1792774914.0548365,
+    "ast_hash": "e5741a372a05463f68d1734c917d5cd1",
+    "semantic_hash": ""
+  },
+  "src/components/SectionCauses.jsx": {
+    "mtime": 1792691181.0096335,
+    "seen": 1792693370.35763,
+    "ast_hash": "8fb1338ab26c7918099e0d17a9e42da4",
+    "semantic_hash": ""
+  },
+  "src/components/SectionColdOpen.jsx": {
+    "mtime": 1792691142.8187206,
+    "seen": 1792693370.357631,
+    "ast_hash": "d8a245fb04f7049dbf9ac8fe1ba445d4",
+    "semantic_hash": ""
+  },
+  "src/components/SectionNumbers.jsx": {
+    "mtime": 1792691218.5172505,
+    "seen": 1792693370.3576317,
+    "ast_hash": "ef173d4060bbc9fb4772a76bf7e72509",
+    "semantic_hash": ""
+  },
+  "src/components/SectionOpinion.jsx": {
+    "mtime": 1792691256.6791134,
+    "seen": 1792693370.3576329,
+    "ast_hash": "5043e2f1ece35a5512ec7793b1e70cbf",
+    "semantic_hash": ""
+  },
+  "src/components/SectionQuestion.jsx": {
+    "mtime": 1792774435.4739864,
+    "seen": 1792774516.7491918,
+    "ast_hash": "b63e0bc18a5bca548174709dc8c5995e",
+    "semantic_hash": ""
+  },
+  "src/components/SectionQuiz.jsx": {
+    "mtime": 1792691247.8104134,
+    "seen": 1792693370.3576345,
+    "ast_hash": "6da877f98230b904326496c3db8aa548",
+    "semantic_hash": ""
+  },
+  "src/components/SectionSolutions.jsx": {
+    "mtime": 1792691234.2625437,
+    "seen": 1792693370.3576355,
+    "ast_hash": "ce28b7b857765b2cc55a53029685bc5d",
+    "semantic_hash": ""
+  },
+  "src/components/SectionSources.jsx": {
+    "mtime": 1792691274.2046385,
+    "seen": 1792693370.3576367,
+    "ast_hash": "1d1df96313ffc042a348dcbe5ca450cd",
+    "semantic_hash": ""
+  },
+  "src/components/SectionTypes.jsx": {
+    "mtime": 1792774452.546123,
+    "seen": 1792774516.7491982,
+    "ast_hash": "eb48946e566493f68d7a6a9a99f1b7f9",
+    "semantic_hash": ""
+  },
+  "src/context/ThemeContext.jsx": {
+    "mtime": 1792690254.7003047,
+    "seen": 1792693370.3576384,
+    "ast_hash": "e133de93f88cd91c3838a61922495728",
+    "semantic_hash": ""
+  },
+  "src/data/caseFiles.js": {
+    "mtime": 1792774418.9914649,
+    "seen": 1792774516.749202,
+    "ast_hash": "b7ed5c7aaf31bf2b06669c5969ac55c0",
+    "semantic_hash": ""
+  },
+  "src/data/causes.js": {
+    "mtime": 1792691009.5102117,
+    "seen": 1792693370.3576405,
+    "ast_hash": "28fc7a3d8e0ffc33079fc51d28fb9b5e",
+    "semantic_hash": ""
+  },
+  "src/data/opinion.js": {
+    "mtime": 1792691063.3269343,
+    "seen": 1792693370.3576412,
+    "ast_hash": "dbda1184bd8a762d0ef43b8a11fd97a9",
+    "semantic_hash": ""
+  },
+  "src/data/projectMeta.js": {
+    "mtime": 1792690098.198706,
+    "seen": 1792693370.3576422,
+    "ast_hash": "00a1faed90661990bacf58fd2a4831f9",
+    "semantic_hash": ""
+  },
+  "src/data/quizQuestions.js": {
+    "mtime": 1792691054.2671864,
+    "seen": 1792693370.357643,
+    "ast_hash": "3e8d06f50aa3eeca0de86a09b873ce93",
+    "semantic_hash": ""
+  },
+  "src/data/solutions.js": {
+    "mtime": 1792691042.4378855,
+    "seen": 1792693370.3576438,
+    "ast_hash": "695bd74773f301c37d4905a22c2abe95",
+    "semantic_hash": ""
+  },
+  "src/data/sources.js": {
+    "mtime": 1792691112.7273574,
+    "seen": 1792693370.3576448,
+    "ast_hash": "fdee9622731b2519cfeda71517b75142",
+    "semantic_hash": ""
+  },
+  "src/data/statistics.js": {
+    "mtime": 1792691032.5786326,
+    "seen": 1792693370.3576458,
+    "ast_hash": "ff0d02e4eda34ea8c23432cd4f614add",
+    "semantic_hash": ""
+  },
+  "src/data/typesOfCrime.js": {
+    "mtime": 1792774404.9101686,
+    "seen": 1792774516.7492187,
+    "ast_hash": "90cd873cac13e7739b288dd115eeb02f",
+    "semantic_hash": ""
+  },
+  "src/hooks/useLenis.js": {
+    "mtime": 1792691121.4492612,
+    "seen": 1792693370.3576477,
+    "ast_hash": "8096597f0aedc0ed4488281d73279b4e",
+    "semantic_hash": ""
+  },
+  "src/hooks/useScrollProgress.js": {
+    "mtime": 1792690258.0545945,
+    "seen": 1792693370.3576484,
+    "ast_hash": "00d64ab3b19f77cf96e2f822f5406dd1",
+    "semantic_hash": ""
+  },
+  "src/main.jsx": {
+    "mtime": 1792691294.5837348,
+    "seen": 1792693370.3576493,
+    "ast_hash": "f498515c985d1254d552f611a1edc5e8",
+    "semantic_hash": ""
+  },
+  "src/pages/CaseFiles.jsx": {
+    "mtime": 1792690436.193516,
+    "seen": 1792693370.3576505,
+    "ast_hash": "5fd3277bd3d5f5ecf97c2aee7389ada4",
+    "semantic_hash": ""
+  },
+  "src/pages/Causes.jsx": {
+    "mtime": 1792690423.5502331,
+    "seen": 1792693370.3576512,
+    "ast_hash": "faba7e0be77beab89592b14b3651542f",
+    "semantic_hash": ""
+  },
+  "src/pages/Home.jsx": {
+    "mtime": 1792690392.500923,
+    "seen": 1792693370.3576522,
+    "ast_hash": "8bf03cd747f0426ed74e66b1b00a7c9e",
+    "semantic_hash": ""
+  },
+  "src/pages/MyOpinion.jsx": {
+    "mtime": 1792690516.72183,
+    "seen": 1792693370.357653,
+    "ast_hash": "403092fe0c7c4fcb8e5ed2a66c8c29bc",
+    "semantic_hash": ""
+  },
+  "src/pages/NotFound.jsx": {
+    "mtime": 1792690535.8596358,
+    "seen": 1792693370.357654,
+    "ast_hash": "c2589bbb40d2832e010e07176de82706",
+    "semantic_hash": ""
+  },
+  "src/pages/Quiz.jsx": {
+    "mtime": 1792690496.6472583,
+    "seen": 1792693370.3576548,
+    "ast_hash": "6f50dcc0439637c8528f03befb3ba190",
+    "semantic_hash": ""
+  },
+  "src/pages/Solutions.jsx": {
+    "mtime": 1792690473.4609475,
+    "seen": 1792693370.3576562,
+    "ast_hash": "2f6ce92c2047163f0282218813636f84",
+    "semantic_hash": ""
+  },
+  "src/pages/Sources.jsx": {
+    "mtime": 1792690528.814325,
+    "seen": 1792693370.3576572,
+    "ast_hash": "648f0317df677a615f964431f0499254",
+    "semantic_hash": ""
+  },
+  "src/pages/Statistics.jsx": {
+    "mtime": 1792690461.0006413,
+    "seen": 1792693370.3576581,
+    "ast_hash": "cc96c210164a0c3fac45fac0ae962a88",
+    "semantic_hash": ""
+  },
+  "src/pages/TypesOfCrime.jsx": {
+    "mtime": 1792690408.5177157,
+    "seen": 1792693370.3576589,
+    "ast_hash": "186b79daff3699032ca23adc6db48687",
+    "semantic_hash": ""
+  },
+  "tailwind.config.js": {
+    "mtime": 1792690958.2639935,
+    "seen": 1792693370.3576598,
+    "ast_hash": "bba285a07ccb19e71936d29d019c16a6",
+    "semantic_hash": ""
+  },
+  "vercel.json": {
+    "mtime": 1792690602.6385539,
+    "seen": 1792693370.357661,
+    "ast_hash": "edc09baea7106825f1f4ee95d895e769",
+    "semantic_hash": ""
+  },
+  "vite.config.js": {
+    "mtime": 1792690570.3661063,
+    "seen": 1792693370.3576617,
+    "ast_hash": "aa0324196d83fa0a590d0bfa113bc4bb",
+    "semantic_hash": ""
+  },
+  "README.md": {
+    "mtime": 1792691322.8425438,
+    "seen": 1792693370.357663,
+    "ast_hash": "568b119492166fc5452cdc5078fa8d47",
+    "semantic_hash": ""
+  },
+  "index.html": {
+    "mtime": 1792690952.1210895,
+    "seen": 1792693370.3576636,
+    "ast_hash": "f63ba1b5e766a6292cf53beae47f31fc",
+    "semantic_hash": ""
+  },
+  "public/images/bangladesh-bank.jpg": {
+    "mtime": 1792774304.5819297,
+    "seen": 1792774516.7492526,
+    "ast_hash": "7de6be527c835575ef0544306bbcd275",
+    "semantic_hash": ""
+  },
+  "public/images/db-cooper.jpg": {
+    "mtime": 1792774282.3806603,
+    "seen": 1792774516.7492547,
+    "ast_hash": "90ad3aed7ef0bf6318fa2e36856d2b7f",
+    "semantic_hash": ""
+  },
+  "public/images/enron.jpg": {
+    "mtime": 1792774300.4945982,
+    "seen": 1792774516.7492561,
+    "ast_hash": "6f4c27c730d753ec79f32812accbd9a0",
+    "semantic_hash": ""
+  },
+  "public/images/french-connection.jpg": {
+    "mtime": 1792774280.3042214,
+    "seen": 1792774516.7492576,
+    "ast_hash": "fbfd524e6a8ceff06f7e675e33e5aab6",
+    "semantic_hash": ""
+  },
+  "public/images/migrant-mother.jpg": {
+    "mtime": 1792774366.1949115,
+    "seen": 1792774516.7492585,
+    "ast_hash": "ea3a65a17a68476f1118dfa9d60c895f",
+    "semantic_hash": ""
+  },
+  "public/images/mona-lisa-1911.jpg": {
+    "mtime": 1792774281.0015042,
+    "seen": 1792774516.7492597,
+    "ast_hash": "99ab7b835a7b8fd6a401e6771ebdf85f",
+    "semantic_hash": ""
+  },
+  "public/images/train-robbery.jpg": {
+    "mtime": 1792774294.912612,
+    "seen": 1792774516.749261,
+    "ast_hash": "e4f43990309c7f81e5609ffbecc9b704",
+    "semantic_hash": ""
+  },
+  "public/images/watergate-transcripts.jpg": {
+    "mtime": 1792774351.072708,
+    "seen": 1792774516.7492619,
+    "ast_hash": "eca6cffda6a0ada0c76fcfdd5109fbcc",
+    "semantic_hash": ""
+  },
+  "public/images/watergate.jpg": {
+    "mtime": 1792774282.2128074,
+    "seen": 1792774516.749263,
+    "ast_hash": "e2d146b046aee29f28dacaf20bee5081",
+    "semantic_hash": ""
+  }
+}

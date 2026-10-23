@@ -48,9 +48,9 @@ export const SectionQuestion = () => {
           </div>
 
           {/* Editorial Margin Column (Right) */}
-          <div className="lg:col-span-5 lg:pl-8 space-y-12">
+          <div className="lg:col-span-5 lg:pl-8 space-y-10">
             {/* Margin Pull Quote */}
-            <div className="border-l border-[#111] pl-6 py-2 my-4">
+            <div className="border-l border-[#111] pl-6 py-2 my-2">
               <blockquote className="font-serif text-2xl sm:text-3xl text-[#111] italic leading-snug">
                 "Crime is not a disease that infects the blood. It is a symptom of a torn social contract."
               </blockquote>
@@ -59,12 +59,29 @@ export const SectionQuestion = () => {
               </cite>
             </div>
 
+            {/* Archival Documentary Photo */}
+            <figure className="border-t border-b border-[#111]/20 py-4 space-y-3">
+              <div className="overflow-hidden border border-[#111]/20 bg-[#EAE5DB]">
+                <img
+                  src="/images/migrant-mother.jpg"
+                  alt="Dorothea Lange's 1936 Migrant Mother portrait"
+                  className="w-full h-72 sm:h-80 object-cover object-top filter grayscale contrast-105 hover:scale-[1.02] transition-transform duration-700"
+                  loading="lazy"
+                />
+              </div>
+              <figcaption className="text-xs text-[#7A7873] font-sans leading-relaxed">
+                <span className="font-medium text-[#111] block mb-0.5">Fig 1.1 — The Face of Structural Deprivation</span>
+                Dorothea Lange's 1936 portrait <em>Migrant Mother</em>. When legal avenues to basic survival collapse, deviance becomes a survival adaptation rather than a moral choice.
+                <span className="block text-[10px] uppercase tracking-wider text-[#111]/50 mt-1">Photo: Library of Congress Prints & Photographs Division</span>
+              </figcaption>
+            </figure>
+
             {/* Quiet Context Note */}
-            <div className="bg-[#EAE5DB]/60 p-6 sm:p-8 rounded-none border-t border-[#111]/20 space-y-3">
+            <div className="bg-[#EAE5DB]/60 p-6 sm:p-7 rounded-none border-t border-[#111]/20 space-y-2">
               <span className="text-xs uppercase tracking-widest text-[#B3261E] font-sans font-semibold block">
                 The Working Thesis
               </span>
-              <p className="text-sm sm:text-base text-[#3A3A38] font-sans leading-relaxed">
+              <p className="text-xs sm:text-sm text-[#3A3A38] font-sans leading-relaxed">
                 If criminality were an inherent flaw of individual character, crime rates would remain uniform across time and geography. They do not. They spike and drop in lockstep with school funding, housing affordability, employment options, and untreated public health crises.
               </p>
             </div>

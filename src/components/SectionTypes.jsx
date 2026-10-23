@@ -46,7 +46,7 @@ export const SectionTypes = () => {
           ))}
         </div>
 
-        {/* Active Typology Editorial Spread (No card grid!) */}
+        {/* Active Typology Editorial Spread */}
         <motion.div
           key={activeTab}
           initial={{ opacity: 0, y: 15 }}
@@ -69,26 +69,46 @@ export const SectionTypes = () => {
           </div>
 
           {/* Core Essay Text */}
-          <div className="lg:col-span-5 border-t border-[#111] pt-6 space-y-6">
+          <div className="lg:col-span-4 border-t border-[#111] pt-6 space-y-6">
             <p className="text-xl sm:text-2xl font-serif text-[#111] italic leading-snug">
               "{crimeTypes[activeTab].lead}"
             </p>
             <p className="text-[17px] sm:text-[19px] text-[#3A3A38] font-sans leading-[1.65]">
               {crimeTypes[activeTab].body}
             </p>
+
+            <div className="pt-6 border-t border-[#111]/15">
+              <span className="text-[11px] uppercase tracking-widest text-[#B3261E] font-sans font-bold block mb-2">
+                Historical Anchor // {crimeTypes[activeTab].caseStudy.year}
+              </span>
+              <h4 className="font-serif text-lg font-bold text-[#111] mb-1">
+                {crimeTypes[activeTab].caseStudy.name}
+              </h4>
+              <p className="text-xs sm:text-sm text-[#3A3A38] font-sans leading-relaxed">
+                {crimeTypes[activeTab].caseStudy.detail}
+              </p>
+            </div>
           </div>
 
-          {/* Historical Case Anchor Note */}
-          <div className="lg:col-span-3 border-t border-[#111] pt-6 bg-[#EAE5DB]/40 p-6">
-            <span className="text-[11px] uppercase tracking-widest text-[#B3261E] font-sans font-bold block mb-2">
-              Historical Reference // {crimeTypes[activeTab].caseStudy.year}
-            </span>
-            <h4 className="font-serif text-lg font-bold text-[#111] mb-2">
-              {crimeTypes[activeTab].caseStudy.name}
-            </h4>
-            <p className="text-xs sm:text-sm text-[#3A3A38] font-sans leading-relaxed">
-              {crimeTypes[activeTab].caseStudy.detail}
-            </p>
+          {/* Archival Photography Column */}
+          <div className="lg:col-span-4 border-t border-[#111] pt-6">
+            <figure className="space-y-3">
+              <div className="overflow-hidden border border-[#111]/20 bg-[#EAE5DB]">
+                <img
+                  src={crimeTypes[activeTab].image.src}
+                  alt={crimeTypes[activeTab].image.alt}
+                  className="w-full h-64 sm:h-72 object-cover filter grayscale contrast-105 hover:scale-[1.02] transition-transform duration-700"
+                  loading="lazy"
+                />
+              </div>
+              <figcaption className="text-xs text-[#7A7873] font-sans leading-relaxed">
+                <span className="font-medium text-[#111] block mb-0.5">Archival Evidence // {crimeTypes[activeTab].caseStudy.year}</span>
+                {crimeTypes[activeTab].image.caption}
+                <span className="block text-[10px] uppercase tracking-wider text-[#111]/50 mt-1">
+                  Source: {crimeTypes[activeTab].image.credit}
+                </span>
+              </figcaption>
+            </figure>
           </div>
         </motion.div>
       </div>
